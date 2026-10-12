@@ -35,9 +35,7 @@ The Raycast build bundles the same script as an asset and executes it with Bash.
 
 ## Development
 
-The command uses Raycast’s [`no-view` mode](https://developers.raycast.com/information/manifest) and resolves its bundled script with [`environment.assetsPath`](https://developers.raycast.com/api-reference/environment).
-The manifest is restricted to macOS.
-Before submitting to the Raycast Store, set `author` in `package.json` to your actual Raycast Store handle; it currently assumes `RonenMars`.
+This macOS extension uses Raycast’s [`no-view` mode](https://developers.raycast.com/information/manifest) and runs the bundled script through [`environment.assetsPath`](https://developers.raycast.com/api-reference/environment).
 
 ```sh
 npm run build
