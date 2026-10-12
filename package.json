@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raycast.com",
+  "name": "insomniac-control",
+  "title": "Insomniac Sleep Control",
+  "description": "Launch or quit Insomniac from Raycast.",
+  "icon": "command-icon.png",
+  "author": "RonenMars",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "toggle",
+      "title": "Toggle Insomniac Sleep",
+      "description": "Launch Insomniac when stopped, or quit it when running.",
+      "mode": "no-view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "ray develop",
+    "build": "ray build"
+  },
+  "platforms": [
+    "macOS"
+  ],
+  "categories": [
+    "System"
+  ]
+}
